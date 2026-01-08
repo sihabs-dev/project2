@@ -153,6 +153,7 @@ section .banner-section .another-btn {
     margin: 2.5em auto;
     gap: 1.5em;
 }
+
 .note-section #cards .card {
     padding: 2.5em 0.8em;
     text-align: center;
@@ -160,6 +161,7 @@ section .banner-section .another-btn {
     box-shadow: 0 -2px 3px rgb(238, 238, 238);
     border-radius: 0.5em;
 }
+
 .note-section #cards .card .image {
     width: 100%;
     width: 50px;
@@ -170,24 +172,79 @@ section .banner-section .another-btn {
     background-color: #F95555;
     border-radius: 50%;
     margin: 0.9em auto;
-    
+
 }
+
 .note-section #cards .card .image img {
     width: 1.7em;
 }
+
 .note-section #cards .card h3 {
     color: #001931;
     font-size: 1.4em;
     font-weight: 600;
     margin: 0.8em 0;
 }
+
 .note-section #cards .card p {
     color: #627382;
     line-height: 1.3em;
 }
 
 /* note section end */
+/* brain-section start  */
+.brain-section {
+    width: 82%;
+    margin: 5em auto;
+    display: flex;
+    gap: 5%;
+}
 
+.brain-section .image {
+    width: 45%;
+}
+
+.brain-section .image img {
+    width: 100%;
+}
+
+.brain-section .section-massage {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.brain-section .section-massage h4 {
+    color: #469165;
+    font-size: 1em;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 0.8em;
+}
+.brain-section .section-massage h1 {
+    color: #001931;
+    font-size: 2.8em;
+    font-weight: bold;
+
+}
+.brain-section .section-massage p {
+    color: #627382;
+    font-size: 0.9em;
+    margin: 1.4em 0;
+}
+.brain-section .section-massage ul {
+    list-style: none;
+    line-height: 2em;
+    color: #001931;
+    font-weight: 500;
+}
+.brain-section .section-massage ul img {
+    width: 100%;
+    max-width: 1.1em;
+    vertical-align: text-bottom;
+    margin-right: 0.3em;
+}
+/* brain-section end */
 
 
 
