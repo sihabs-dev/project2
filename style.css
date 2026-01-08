@@ -53,7 +53,7 @@ nav .nav-list ul a {
 
 
 /* banner section */
-section {
+.banner-section {
 
     background-image: url("images/hero-bg.png");
     background-repeat: no-repeat;
@@ -126,7 +126,65 @@ section .banner-section .another-btn {
 
 /* main section start */
 /* note section start */
+.note-section {
+    margin: 3.5em 0;
+    background-color: #e4e4e415;
+}
 
+.note-section .note-heading {
+    text-align: center;
+}
+
+.note-section .note-heading h1 {
+    font-size: 3em;
+    font-weight: bold;
+    color: #001931;
+}
+
+.note-section .note-heading p {
+    color: #627382;
+    margin-top: 0.8em;
+}
+
+.note-section #cards {
+    width: 82%;
+    display: flex;
+    justify-content: space-between;
+    margin: 2.5em auto;
+    gap: 1.5em;
+}
+.note-section #cards .card {
+    padding: 2.5em 0.8em;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 0 -2px 3px rgb(238, 238, 238);
+    border-radius: 0.5em;
+}
+.note-section #cards .card .image {
+    width: 100%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F95555;
+    border-radius: 50%;
+    margin: 0.9em auto;
+    
+}
+.note-section #cards .card .image img {
+    width: 1.7em;
+}
+.note-section #cards .card h3 {
+    color: #001931;
+    font-size: 1.4em;
+    font-weight: 600;
+    margin: 0.8em 0;
+}
+.note-section #cards .card p {
+    color: #627382;
+    line-height: 1.3em;
+}
 
 /* note section end */
 
