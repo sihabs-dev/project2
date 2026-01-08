@@ -127,8 +127,8 @@ section .banner-section .another-btn {
 /* main section start */
 /* note section start */
 .note-section {
-    margin: 3.5em 0;
-    background-color: #e4e4e415;
+    padding: 3.5em 0 0 0;
+    background-color: #e1e0e025;
 }
 
 .note-section .note-heading {
@@ -195,7 +195,7 @@ section .banner-section .another-btn {
 /* brain-section start  */
 .brain-section {
     width: 82%;
-    margin: 5em auto;
+    margin: 5.5em auto;
     display: flex;
     gap: 5%;
 }
@@ -246,6 +246,36 @@ section .banner-section .another-btn {
 }
 /* brain-section end */
 
+/* challenge start */
+.challenge {
+    width: 82%;
+    background-color: #F7F6F2;
+    margin: 5.5em auto;
+    border-radius: 0.7em;
+    padding: 4em 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+.challenge h1 {
+    color: #001931;
+    font-size: 2.4em;
+    font-weight: bold;
+}
+.challenge p {
+    width: 53%;
+    color: #627382;
+    line-height: 24px;
+    text-align: center;
+    margin: 0.8em 0;
+}
+.challenge .btn img {
+    vertical-align: middle;
+    margin-left: 0.3em;
+}
+
+/* challenge end */
 
 
 /* main section end*/
