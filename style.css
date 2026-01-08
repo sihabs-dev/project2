@@ -8,6 +8,7 @@
 /* common css start */
 .btn {
     background-color: #469165;
+    font-weight: 500;
     color: #fff;
     padding: 10px 14px;
     border: none;
@@ -18,26 +19,118 @@
 
 /* common css end */
 
+/* header section start */
+
+/* nav bar */
 nav {
     width: 82%;
-    margin: auto;
-    margin-top: 20px;
+    margin: 10px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
 }
+
 nav .nav-logo img {
     width: 100%;
 }
+
 nav .nav-list ul {
     list-style: none;
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 1.7em;
 }
+
 nav .nav-list ul a {
     text-decoration: none;
     color: black;
     font-weight: 500;
+    font-size: 0.9em;
 }
+
+/* end nav bar */
+
+
+/* banner section */
+section {
+
+    background-image: url("images/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+
+}
+
+section .banner-section {
+    padding: 8rem 0;
+}
+
+section .banner-section .para1 {
+    background-color: white;
+    color: #469165;
+    font-weight: 500;
+    margin: auto;
+    width: 210px;
+    border-radius: 30px;
+    padding: 5px 3px;
+}
+
+section .banner-section .para1 img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+section .banner-section .heading-one {
+    font-size: 3.5em;
+    font-weight: bold;
+    margin: 12px 0 0px 0;
+    color: #fff;
+
+}
+
+section .banner-section .heading-two {
+    font-size: 4em;
+    color: #30B868;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+section .banner-section .para {
+    color: #fff;
+    margin-bottom: 12px;
+}
+
+section .banner-section .para3 {
+    margin-bottom: 25px;
+}
+
+section .banner-section .banner-button img {
+    vertical-align: middle;
+}
+
+section .banner-section .another-btn {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 14px;
+    border-radius: 5px;
+    margin-left: 7px;
+    cursor: pointer;
+}
+
+/* end banner section */
+
+/* header section end */
+
+
+/* main section start */
+/* note section start */
+
+
+/* note section end */
+
+
+
+
+/* main section end*/
