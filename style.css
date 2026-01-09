@@ -151,7 +151,7 @@ section .banner-section .another-btn {
 /* note section start */
 .note-section {
     padding: 3.5% 0 0 0;
-    background-color: #e1e0e025;
+    background-image: linear-gradient(to bottom, #e1e0e080, transparent);
 }
 
 .note-section .note-heading {
