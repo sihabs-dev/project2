@@ -14,6 +14,7 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    box-shadow: 1px -1 5px #469165;
 }
 
 
@@ -277,5 +278,40 @@ section .banner-section .another-btn {
 
 /* challenge end */
 
-
 /* main section end*/
+
+/* footer section start */
+
+footer {
+    background-color: #001931;
+    color: #fffdfd;
+}
+.footer-start {
+    width: 82%;
+    padding: 5em 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #fffdfd25;
+}
+
+.footer-start .footer-image img {
+    vertical-align: middle;
+}
+.footer-start .icons p {
+    font-size: 1.1em;
+    margin-bottom: 0.9em;
+}
+.footer-start .icons .icon img {
+margin-right: 0.8em;
+width: 100%;
+max-width: 1em;
+cursor: pointer;
+}
+.footer-end p {
+    text-align: center;
+    padding: 2em 0;
+    font-size: 0.85em;
+}
+
+/* footer section end */
