@@ -215,6 +215,7 @@ section .banner-section .another-btn {
     flex-direction: column;
     justify-content: center;
 }
+
 .brain-section .section-massage h4 {
     color: #469165;
     font-size: 1em;
@@ -222,29 +223,34 @@ section .banner-section .another-btn {
     text-transform: uppercase;
     margin-bottom: 0.8em;
 }
+
 .brain-section .section-massage h1 {
     color: #001931;
     font-size: 2.8em;
     font-weight: bold;
 
 }
+
 .brain-section .section-massage p {
     color: #627382;
     font-size: 0.9em;
     margin: 1.4em 0;
 }
+
 .brain-section .section-massage ul {
     list-style: none;
     line-height: 2em;
     color: #001931;
     font-weight: 500;
 }
+
 .brain-section .section-massage ul img {
     width: 100%;
     max-width: 1.1em;
     vertical-align: text-bottom;
     margin-right: 0.3em;
 }
+
 /* brain-section end */
 
 /* challenge start */
@@ -257,13 +263,15 @@ section .banner-section .another-btn {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;   
+    align-items: center;
 }
+
 .challenge h1 {
     color: #001931;
     font-size: 2.4em;
     font-weight: bold;
 }
+
 .challenge p {
     width: 53%;
     color: #627382;
@@ -271,6 +279,7 @@ section .banner-section .another-btn {
     text-align: center;
     margin: 0.8em 0;
 }
+
 .challenge .btn img {
     vertical-align: middle;
     margin-left: 0.3em;
@@ -286,6 +295,7 @@ footer {
     background-color: #001931;
     color: #fffdfd;
 }
+
 .footer-start {
     width: 82%;
     padding: 5em 0;
@@ -298,16 +308,19 @@ footer {
 .footer-start .footer-image img {
     vertical-align: middle;
 }
+
 .footer-start .icons p {
     font-size: 1.1em;
     margin-bottom: 0.9em;
 }
+
 .footer-start .icons .icon img {
-margin-right: 0.8em;
-width: 100%;
-max-width: 1em;
-cursor: pointer;
+    margin-right: 0.8em;
+    width: 100%;
+    max-width: 1em;
+    cursor: pointer;
 }
+
 .footer-end p {
     text-align: center;
     padding: 2em 0;
